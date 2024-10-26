@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 30vw;
+    background-image: url('https://origamiami.com/wp-content/uploads/2021/03/topo-de-bolo-luigi-super-mario-2.png ');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+body {
+
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,201,115,1) 0%, rgba(0,212,255,1) 100%);
+    font-family: 'Nova fonte U do Super Mario' , sans-serif ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+header {
+    background-image: url("https://www.hyperhype.es/wp-content/uploads/2020/03/Mario-Odyssey-e1585654423315-1500x756.jpg");
+    padding: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px; 
+      
+}
+aside h3{
+    color: #fff;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 80px;
+
+
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+h3{
+    color: #020101;
+}
+p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+.design-selection h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.design-archives h3{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.zen-resources h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.design-selection ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.design-selection ul li a:hover{
+    border-bottom: 4px solid #fff;
+    transition: 0.3;
+}
+
+.zen-resources ul li a:hover{
+    border-bottom: 4px solid #fff;
+    transition: 0.3;
+}
+.design-archives ul li a:hover{
+    border-bottom: 4px solid #fff;
+}
+
+.design-archives ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.zen-resources ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wraper{
+    background-color: white;
+    padding: 20px;
+    
+
+}
+
+.summary, .preamble{
+    display: block; 
+    margin-left: auto; 
+    text-align: center;  
+    
+}
+
+.summary{
+    
+    background-color: #fff;
+    text-align: left;
+    height: 180px;
+    width: 900px;
+    margin-right: 280px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    
+
+
+}
+
+.summary p{
+    
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+
+.summary p a{
+    
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+   
+    
+}
+
+.summary p a:hover{
+    border-bottom: 4px solid #b82224;
+    transition: 0.3;
+}
+
+
+#design-selection{
+    position: absolute;
+    top: 200%;
+    transform: translateY(-50%);
+    left: 20px;
+    padding: 40px;
+    height: 1040px; 
+    background-color: rgb(163, 32, 32);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+   
+   
+}
+
+.design-selection::before{
+    content: '';
+    position: absolute;
+    top: 79%;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 30vw;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bae58b19-3adb-45a5-a03c-2a2830f73337/dfou0yz-13aab2ca-2d7a-457e-b235-fa3564712392.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JhZTU4YjE5LTNhZGItNDVhNS1hMDNjLTJhMjgzMGY3MzMzN1wvZGZvdTB5ei0xM2FhYjJjYS0yZDdhLTQ1N2UtYjIzNS1mYTM1NjQ3MTIzOTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0TJKNK6xOoIwWw3rtZumGzzh4wAWbWPvbUVJrk4jRTQ');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.preamble p{
+    margin-top: 20px;
+}
+
+#design-archives{
+    position: absolute;
+    top: 158%;
+    transform: translateY(-50%);
+    right: 60px;
+    padding: 90px;
+    height: 300px; 
+    background-color: rgb(163, 32, 32);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.design-archives::before{
+    content: '';
+    position: absolute;
+    top: 79%;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    width: 15vw;
+    height: 15vw;
+    background-image: url('https://pluspng.com/img-png/mario-bros-png-mario-bros-png-photo-2245.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.preamble:hover{
+    background-color: #ef070777;
+    color: #fff;
+
+   
+    
+}
+
+
+
+.explanation:hover{
+    background-color: #b1161888;
+    color: #fff;
+   
+    
+}
+
+.participation:hover{
+    background-color: #d63d42;
+    color: #fff;
+   
+    
+}
+
+.benefits:hover{
+    background-color: #702e2f;
+    color: #fff;
+   
+    
+}
+
+.requirements:hover{
+    background-color: rgba(4, 76, 76, 0.452);
+    color: #fff;
+}
+
+
+#zen-resources{
+    position: absolute;
+    top: 240%;
+    transform: translateY(-50%);
+    right: 60px;
+    padding: 70px;
+    height: 420px; 
+    background-color: rgb(163, 32, 32);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.zen-resources::before{
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 18vw;
+    background-image: url('https://www.pngmart.com/files/4/Mario-Bros-PNG-Image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.preamble p{
+    margin-top: 20px;
+}
+
+.preamble h3{
+    font-size: 30px;
+}
+
+.explanation p{
+    margin-top: 20px;
+}
+
+.explanation h3{
+    font-size: 30px;
+}
+
+
+
+aside li {
+    list-style-type: none;
+    line-height: 60px;
+}
+
+
+.preamble, .explanation, .participation, .benefits, .requirements {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 612px;
+    max-width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preamble {
+    background-image: url("https://i.imgur.com/FaBYAUC.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 410px;
+}
+
+.explanation, .participation, .benefits {
+    height: 410px;
+    margin-top: 30px;
+}
+
+.benefits p{
+    margin-top: 30px;
+}
+
+.participation p{
+    margin-top: 30px;
+}
+
+.requirements p{
+    margin-top: 20px;
+}
+
+.benefits h3{
+   font-size: 30px;
+}
+
+.participation h3{
+    font-size: 30px;
+}
+
+.requirements h3{
+    font-size: 30px;
+}
+
+
+
+.requirements {
+    margin-top: 120px;
+    text-align: center;
+    background-color: #fff;
+    padding: 100px;
+    height: 400px;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+
+footer{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #b82224;
+    height: 400px;
+    text-align: center;
+    background-image: url("https://s2-techtudo.glbimg.com/3RLtiyjytkma9aRsoFACAua39Mo=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/D/w/TvsgGPS0yff6qwqljXxg/mario-iconico-super-mario-bros-nes-nintendo-8-bits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer a{
+   text-decoration: none;
+   background-color: #fff;
+   width: 55px;
+   border-radius: 100%;
+   color: #000000;
+   font-size: 18px;
+   margin-top: 10px;
+   line-height: 50px;
+   
+}
+
+footer a:hover{
+    background-color: #b82224;
+}
