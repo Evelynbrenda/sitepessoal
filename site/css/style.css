@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+.hero{
+    background: rgb(32,28,99);
+    background: linear-gradient(90deg, rgba(32,28,99,1) 0%, rgba(33,28,96,1) 35%, rgba(24,146,171,1) 100%);
+}
+.nome{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+img{
+    width: 50px;
+}
+.nome span{
+    display: block;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 20px;
+ }
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 20px;
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu ul li:hover{
+    color: black;
+    background:rgb(241, 34, 241);
+    border: none;
+    padding: 10px;
+    transform: scale(1.2);
+    transition: all 0.s;
+   
+}
+.content{
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    max-width: 1100px;
+
+}
+.content .text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 30px;
+    gap: 50%;
+    margin-top: 100px;
+}
+.content .text h3{
+    color: rgb(241, 34, 241);
+    font-size: 30px;
+    font-weight: 700;
+  
+}
+.content .text h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.content .text p{
+    color: rgb(160, 156, 156);
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.content .clique{
+    height: 90px;
+    padding: 10px;
+    width: 300px;
+    background: transparent;
+    color: rgb(241, 34, 241);
+    border: 2px solid rgb(241, 34, 241);
+    border-radius: 4px;  
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.content .clique:hover{
+    color: black;
+    background: white;
+    border: none;
+    transform: scale(1.1);
+}
+.content .photo img{
+    width: 500px;
+    align-items: end;
+    gap: 50%;
+    border-radius: 4000px;
+    border:4px solid rgb(241, 34, 241) ;
+
+}
+.content .photo img:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+.sobre{
+    background: rgb(161, 65, 176);
+    background: linear-gradient(90deg, rgb(163, 16, 208) 0%, rgb(109, 11, 170) 35%, rgb(39, 173, 200) 100%);
+    border-radius: 40px;
+    gap: 30px;
+}
+
+.meio2{
+    display: flex;
+    height: 600px;
+    padding: 40px;
+}
+.eu{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 50px;
+}
+
+.eu span{
+    display: block;
+}
+.conteudo p {
+    display: flex;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 100px;
+    align-items: end;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+
+.segundo{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.skills{
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(0, 0, 0) ;
+    margin-top: 60PX;
+}
+.exemplo{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.exemplo ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+}
+.suporte img{
+    width: 100px;
+    padding: 50px;
+}
+.suporte2 img{
+    width: 100px;
+    padding: 50px;
+}
+.comunicacao img{
+    width: 100px;
+    padding: 50px;
+}
+.suporte p{
+    font-size: 18px;
+    font-weight: 30px;
+    text-align: justify;
+}
+.suporte2 p{
+    font-size: 20px;
+    font-weight: 30px;
+    text-align: justify;
+}
+.comunicacao p{
+    font-size: 20px;
+    font-weight: 30px;
+    text-align: justify;
+
+}
+.suporte:hover{
+    transition: all 0.4s;
+    color: white;
+    font-weight: 700;
+    background: rgb(241, 34, 241);
+    padding: 30px;
+}
+.suporte2:hover{
+    transition: all 0.4s;
+    color: white;
+    font-weight: 700;
+    background: rgb(241, 34, 241);
+    padding: 30px;
+}
+.comunicacao:hover{
+    transition: all 0.4s;
+    color: white;
+    font-weight: 700;
+    background: rgb(241, 34, 241);
+    padding: 30px;
+}
+.final{
+    background-color: rgb(241, 34, 241);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contato img{
+    flex-direction: row;
+    width: 70px;
+    padding: 50px;
+    cursor: pointer;
+}
+.contato img:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    padding: 3opx ;
+}
